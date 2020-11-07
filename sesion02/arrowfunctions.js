@@ -14,3 +14,10 @@ const yearsUntilRetirment = birthYeah => {
     const retirement = 65 - age;
     return retirement;
 }
+
+const yearsUntilRetirment = birthYeah => {
+    const age = 2037 - birthYeah;
+    const retirement = 65 - age;
+    return retirement;
+}
+
